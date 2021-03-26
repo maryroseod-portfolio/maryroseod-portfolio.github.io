@@ -100,7 +100,6 @@ p
     text-align:left;
     color: black;
     hover: blue;
-    overflow: scroll;
 }
 
 .clickableHeader
@@ -117,6 +116,7 @@ p
     display: inline-flex;
     font-size: 12px;
     color: black;
+    overflow: scroll;
 }
 
 .workimg
