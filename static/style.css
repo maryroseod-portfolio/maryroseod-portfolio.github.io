@@ -156,9 +156,10 @@ p
 {
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: inline-block;
     justify-content: left;
     padding-left:3px;
+    padding-right: 3px;
 }
 
 .dropdown
