@@ -102,7 +102,6 @@ p
     hover: blue;
     overflow: auto;
     overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 .clickableHeader
@@ -158,8 +157,6 @@ p
     align-items: center;
     display: flex;
     justify-content: center;
-    padding-left:3px;
-    padding-right: 3px;
 }
 
 .dropdown
