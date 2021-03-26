@@ -83,7 +83,7 @@ p
     height:34px;
     width:400px;
     margin-top:80px;
-    display: flex;
+    display: inline-block;
     justify-content: left;
     align-items: center;
     padding-left:3px;
@@ -139,6 +139,7 @@ p
     margin-left:60px;
     text-align:left;
     color: black;
+    overflow: auto;
     overflow-x: hidden;
     overflow-y: scroll;
 }
