@@ -83,7 +83,7 @@ p
     height:34px;
     width:400px;
     margin-top:80px;
-    display: inline;
+    display: flex;
     justify-content: left;
     align-items: center;
     padding-left:3px;
