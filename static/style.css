@@ -100,6 +100,7 @@ p
     text-align:left;
     color: black;
     hover: blue;
+    overflow: auto;
     overflow-x: hidden;
     overflow-y: scroll;
 }
