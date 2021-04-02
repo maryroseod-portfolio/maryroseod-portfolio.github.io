@@ -2,6 +2,7 @@ body
 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
+    background-color: #ffe0de;
 }
 
 main
@@ -29,7 +30,7 @@ a
 h2
 {
     position:relative;
-    color:white;
+    color: black;
 }
 
 h3
