@@ -49,6 +49,7 @@ p
 {
     text-align:center;
     display: inline-block;
+    float: right;
 }
 
 .toppage
