@@ -105,7 +105,6 @@ p
     margin-left:60px;
     text-align:left;
     color: black;
-    hover: blue;
     overflow: auto;
     overflow-x: hidden;
 }
@@ -113,16 +112,17 @@ p
 .clickableHeader
 {
     text-align: left;
-    display: inline-flex;
+    display: flex;
     font-size: 16px;
     color: black;
+    font-weight: bold;
 }
 
 .clickableDescription
 {
     text-align: left;
     display: inline-flex;
-    font-size: 12px;
+    font-size: 10px;
     color: black;
 }
 
