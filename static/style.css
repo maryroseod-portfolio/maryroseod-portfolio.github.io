@@ -48,6 +48,7 @@ p
 .imgcontainer
 {
     text-align:center;
+    display: inline-block;
 }
 
 .toppage
