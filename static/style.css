@@ -85,9 +85,9 @@ p
 
 .cat
 {
-    border-style:solid;
+    /*border-style:solid;
     height:34px;
-    width:400px;
+    width:400px;*/
     margin-top:80px;
     display: flex;
     justify-content: left;
@@ -122,6 +122,7 @@ p
 {
     text-align: left;
     display: inline-flex;
+    margin: 5px;
     font-size: 10px;
     color: black;
 }
