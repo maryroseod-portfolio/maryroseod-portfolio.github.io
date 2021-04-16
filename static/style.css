@@ -2,7 +2,7 @@ body
 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
-    background-color: #ffe0de;
+    background-color: #eee;
 }
 
 main
@@ -65,7 +65,7 @@ p
     right: 0;
     justify-content: center;
     height:100px;
-    background-color: #ffe0de;
+    background-color: #eee;
 }
 
 .bar
@@ -76,7 +76,7 @@ p
     right: 0;
     height:45px;
     width:100%;
-    background-color:black;
+    background-color:#b8d9f1;
     
     display: flex;
     justify-content: center;
@@ -199,10 +199,10 @@ p
 
 .dropbtn
 {
-  background-color: black;
+  background-color: #b8d9f1;
   border: none;
   border-radius: 50%;
-  color: white;
+  color: #060606;
   padding: 12px 16px;
   font-size: 16px;
   cursor: pointer;
