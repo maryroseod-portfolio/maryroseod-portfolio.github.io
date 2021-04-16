@@ -64,7 +64,7 @@ p
     left: 0;
     right: 0;
     justify-content: center;
-    height:80px;
+    height:100px;
     background-color: #ffe0de;
 }
 
@@ -125,6 +125,7 @@ p
     margin: 5px;
     font-size: 10px;
     color: black;
+    padding-left: 3px;
 }
 
 .workimg
