@@ -140,13 +140,13 @@ p
 .clickable2
 {
     height:400px;
-    width:800px;
+    width:400px;
     display:inline-block;
-    margin-top:30px;
-    margin-left:60px;
+    /*margin-top:30px;
+    margin-left:60px;*/
     text-align:left;
-    color: black;
-    /*overflow: auto;
+    /*color: black;
+    overflow: auto;
     overflow-x: hidden;
     overflow-y: scroll;*/
 }
@@ -154,9 +154,9 @@ p
 .workimg2
 {
     height:400px;
-    width:400;
+    width:400px;
     float:left;
-    overflow:hidden;
+    /*overflow:hidden;*/
 }
 
 .workcontainer
