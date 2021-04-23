@@ -140,21 +140,21 @@ p
 .clickable2
 {
     height:400px;
-    width:600px;
+    width:800px;
     display:inline-block;
     margin-top:30px;
     margin-left:60px;
     text-align:left;
     color: black;
-    overflow: auto;
+    /*overflow: auto;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: scroll;*/
 }
 
 .workimg2
 {
     height:400px;
-    width:100%;
+    width:400;
     float:left;
     overflow:hidden;
 }
