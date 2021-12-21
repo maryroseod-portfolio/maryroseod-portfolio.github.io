@@ -221,3 +221,96 @@ footer
     height: 30px;
     background-color: gray;
 }
+
+.heading-section {
+    align-items: flex-start;
+    display: flex;
+    height: 160px;
+    min-width: 1367px;
+    padding: 28px 0;
+}
+
+.overlap-group3{
+    align-items: flex-end;
+    background-color: var(--mist-gray);
+    border-radius: 50px;
+    display: flex;
+    height: 100px;
+    min-width: 100px;
+    padding: 18px 20px;
+}
+
+.menu-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.overlap-group2 {
+    align-items: flex-end;
+    background-color: var(--mist-gray);
+    border-radius: 50px;
+    display: flex;
+    height: 100px;
+    margin-left: 34px;
+    min-width: 100px;
+    padding: 23px 25px;
+}
+
+.emojione-monotonepage-facing-up{
+    height: 50px;
+    width: 50px;
+}
+
+.name{
+    align-self: center;
+    color: var(--black);
+    font-family: var(--font-family-rubik-mono-one);
+    font-size: var(--font-size-1);
+    font-weight: 400;
+    height: 61px;
+    letter-spacing: 0;
+    margin-bottom: 3.0px;
+    margin-left: 54px;
+    min-width: 791px;
+    text-align: center;
+}
+
+.overlap-group{
+    align-items: flex-end;
+    background-color: var(--mist-gray);
+    border-radius: 50px;
+    display: flex;
+    height: 100px;
+    margin-left: 54px;
+    min-width: 100px;
+    padding: 23px 24px;
+}
+
+.twitter-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.overlap-group1{
+    align-items: center;
+    background-color: var(--mist-gray);
+    border-radius: 50px;
+    display: flex;
+    height: 100px;
+    margin-left: 34px;
+    min-width: 100px;
+    padding: 0 25px;
+}
+
+.linked-in-icon{
+    height: 50px;
+    width: 50px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400|Rubik+Mono+One:400");
+
+.valign-text-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
