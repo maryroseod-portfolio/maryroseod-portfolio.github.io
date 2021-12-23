@@ -1,22 +1,9 @@
-body
-{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    background-color: #eee;
-}
-
 main
 {
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 60px;
     overflow:hidden;
-}
-
-img
-{
-  display: inline-block;
-  max-width:60%;
 }
 
 footer
@@ -30,13 +17,17 @@ footer
     background-color: gray;
 }
 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* W3 SCHOOLS RESPONSIVE HEADER CSS */
 
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
+  padding: 30px 20px;
 }
 
 /* Style the header links */
@@ -55,7 +46,7 @@ footer
 /* Centered section inside the top navigation */
 .header a.logo {
   font-size: 50px;
-  font-weight: bold;
+  font-weight: bolder;
   font-family: 'Fanwood Text', serif;
   float: none;
   position: absolute;
@@ -149,5 +140,7 @@ footer
     top: 0;
     left: 0;
     transform: none;
+    font-family: 'Fanwood Text', serif;
+    font-family: 'Staatliches', cursive;
   }
 }
