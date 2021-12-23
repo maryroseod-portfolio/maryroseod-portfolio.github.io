@@ -10,15 +10,16 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <!--<link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&display=swap" rel="stylesheet">-->
       <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Staatliches&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
     </head> <!-- Top Importy Stuff -->
     <body>
-        <div class="header">
-          <!--Dropdown Left Aligned Menu-->
+        <!--<div class="header">
+          Dropdown Left Aligned Menu
           <div class="dropdown">
             <a class="active" href="#home">
-              <!-- Menu Icon -->
+              -Menu Icon
               <button class="dropbtn"><i class="material-icons" style="font-size:48px;">menu</i></button>
-              <div class="dropdown-content"> <!--Drop Down Links-->
+              <div class="dropdown-content"> Drop Down Links
                 <a href="#">Articles</a>
                 <a href="#">Audio</a>
                 <a href="#">Desktop Publishing</a>
@@ -27,14 +28,51 @@
             </a>
           </div>
           <a class="logo">MARY ROSE O'DONNELL</a>
-          <!--Right Aligned Button-->
+          Right Aligned Button
           <div class="header-right">
-            <!--LinkedIn Icon-->
+            LinkedIn Icon
             <a href="#default"><i class="fa fa-linkedin-square" style="font-size:48px"></i></a>
           </div>
+        </div>-->
+        <div class="header">
+          <h2>Scroll Down</h2>
+          <p>Scroll down to see the sticky effect.</p>
         </div>
-     <main>
-       <div class="row">
+
+        <div id="navbar">
+          <a class="active" href="javascript:void(0)">Home</a>
+          <a href="javascript:void(0)">News</a>
+          <a href="javascript:void(0)">Contact</a>
+        </div>
+
+        <div class="content">
+          <h3>Sticky Navigation Example</h3>
+          <p>The navbar will stick to the top when you reach its scroll position.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        </div>
+
+        <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+
+     <!--<main>
          <div class="column">
            <h2>Column Where Picture Will Go</h2>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
@@ -44,8 +82,7 @@
            <h2>Welcome Paragraph</h2>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
          </div>
-       </div>
-     </main>
+     </main>-->
      <footer>
        &emsp;Contact Email:&emsp;maryroseod@gmail.com
      </footer>
