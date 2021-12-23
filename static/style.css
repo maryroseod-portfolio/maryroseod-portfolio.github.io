@@ -3,7 +3,24 @@ main
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 60px;
-    overflow:hidden;
+    overflow:auto;
+}
+
+.homepage-text{
+  /*border: 1px solid gray;*/
+  padding: 8px;
+}
+
+.homepage-text h1 {
+  text-align: center;
+  text-transform: uppercase;
+  /*color: #4CAF50;*/
+}
+
+.homepage-text p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
 }
 
 footer
@@ -52,7 +69,7 @@ body {
   font-family: 'Fanwood Text', serif;
   font-family: 'Staatliches', cursive;
   float: none;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
