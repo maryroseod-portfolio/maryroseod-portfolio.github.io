@@ -44,7 +44,10 @@ body {
 
 /*Two Columns for Content on the Homepage*/
 #homepage {
-  padding: 16px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
   column-count: 2;
   column-gap: normal;
   column-rule-width: medium;
@@ -55,6 +58,7 @@ body {
   /*column-width: auto;
   column-span: none;*/
   border-radius: 8px; /*rounded edges*/
+  border-color: black;
   /*Center Image (lets see how this goes lol)*/
   display: block;
   margin-left: auto;
@@ -62,15 +66,11 @@ body {
   width: 50%;
 }
 
-/*#homepage p {
-  margin: 0;
-  font-size: 28px;
+#homepage p{
+  /*margin: 0;*/
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
-}*/
-
-/*#homepage h3{
-
-}*/
+}
 
 .sticky {
   position: fixed;
