@@ -6,7 +6,7 @@ body {
 
 .header {
   background-color: #f1f1f1;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
   font-size: 50px;
   font-weight: bolder;
@@ -51,10 +51,15 @@ body {
   column-span: none;
 }
 
-#homepage .homepage-picture{
+#homepage img.homepage-picture{
   /*column-width: auto;
   column-span: none;*/
-
+  border-radius: 8px; /*rounded edges*/
+  /*Center Image (lets see how this goes lol)*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /*#homepage p {
