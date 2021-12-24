@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-  background-color: #f1f1f1;
+  /*background-color: #f1f1f1;*/
   /*padding: 10px;*/
   text-align: center;
   font-size: 60px;
@@ -44,7 +44,7 @@ body {
 /*Two Columns for Content on the Homepage*/
 #homepage {
   column-count: 2;
-  column-gap: normal;
+  column-gap: 50px;
   column-rule-width: medium;
   column-span: none;
 }
@@ -66,7 +66,7 @@ body {
   /*Center Image (lets see how this goes lol)*/
   display: block;
   margin-top: 50px;
-  margin-left: 80px;
+  margin-left: 200px;
   margin-right: auto;
   width: 50%;
   border: 2px solid black;
