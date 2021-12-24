@@ -19,10 +19,6 @@ body {
   width: 100%;
   background-color: #555;
   overflow: auto;
-  /*padding-top: 50px;
-  padding-right: 30px;*/
-  padding-bottom: 50px;
-  /*padding-left: 30px;*/
 }
 
 #navbar a {
