@@ -59,7 +59,7 @@ h2.header{
   background-color: #f1f1f1;
 }
 
-#homepage p.flex-container > div {
+#homepage .flex-container > div {
   margin: 20px;
   /*padding: 20px;*/
   font-size: 30px;
@@ -67,7 +67,7 @@ h2.header{
   justify-content: space-around;
 }
 
-#homepage img.flex-container > div{
+#homepage img.flex-container {
   /*column-width: auto;
   column-span: none;*/
   /*Center Image (lets see how this goes lol)*/
