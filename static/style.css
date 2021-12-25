@@ -50,11 +50,10 @@ body {
 
 #homepage .flex-container {
   display: flex;
-  background-color: DodgerBlue;
+  flex-direction: row;
 }
 
 #homepage .flex-container > div {
-  background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
@@ -69,7 +68,7 @@ body {
   margin-left: 200px;
   margin-right: auto;
   margin-bottom: 80px;
-  width: 50%;
+  width: 40%;
   border: 2px solid black;
   border-radius: 5px;
 }
