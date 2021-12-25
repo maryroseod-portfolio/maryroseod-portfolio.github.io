@@ -66,12 +66,15 @@ h2.header{
   background-color: #f1f1f1;
   padding: 10px;
   flex: 50%;
+  align-items: center;
 }
 
 #homepage .flex-item-right {
   background-color: dodgerblue;
   padding: 10px;
   flex: 50%;
+  align-items: center;
+}
 
 #homepage img{
   display: block;
@@ -79,6 +82,12 @@ h2.header{
   border: 5px solid black;
   border-radius: 5px;
 }
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
 
 /*#homepage p{
   font-size: 22px;
