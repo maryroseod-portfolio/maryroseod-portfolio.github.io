@@ -111,7 +111,7 @@ h2 {
   width: 100%;
 }
 
-.sticky + .content {
+.sticky + .homepage {
   padding-top: 60px;
 }
 
