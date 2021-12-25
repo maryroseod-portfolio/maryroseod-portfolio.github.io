@@ -111,7 +111,7 @@ h2 {
   width: 100%;
 }
 
-.sticky + .homepage {
+.sticky + .flex-container {
   padding-top: 60px;
 }
 
