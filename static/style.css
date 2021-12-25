@@ -41,11 +41,23 @@ body {
 }
 
 /*Two Columns for Content on the Homepage*/
-#homepage {
+/*#homepage {
   column-count: 2;
   column-gap: 50px;
   column-rule-width: medium;
   column-span: none;
+}*/
+
+#homepage .flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+#homepage .flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
 }
 
 #homepage img{
