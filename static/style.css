@@ -45,40 +45,36 @@ h2.header{
 }
 
 /*Two Columns for Content on the Homepage*/
-/*#homepage {
-  column-count: 2;
-  column-gap: 50px;
-  column-rule-width: medium;
-  column-span: none;
-}*/
+#homepage {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-.flex-container {
+#homepage .flex-container {
   display: flex;
-  height: 200px;
   align-items: center;
   background-color: DodgerBlue;
   justify-content: center;
   flex-direction: row;
 }
 
-.flex-container > div {
+#homepage .flex-container > div {
   background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+  margin: 15px;
 }
 
+#homepage .flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
+}
+
+#homepage .flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+
 #homepage img{
-  /*column-width: auto;
-  column-span: none;*/
-  /*Center Image (lets see how this goes lol)*/
   display: block;
-  /*margin-top: 50px;
-  margin-left: 200px;
-  margin-right: auto;
-  margin-bottom: 80px;*/
   max-width: 100%;
   border: 5px solid black;
   border-radius: 5px;
