@@ -52,26 +52,26 @@ h2.header{
 #homepage .flex-container {
   display: flex;
   align-items: center;
-  background-color: DodgerBlue;
+  /*background-color: DodgerBlue;*/
   justify-content: center;
   flex-direction: row;
 }
 
 #homepage .flex-container > div {
-  background-color: #f1f1f1;
+  /*background-color: #f1f1f1;*/
   margin: 15px;
 }
 
 #homepage .flex-item-left {
   background-color: #f1f1f1;
-  padding: 10px;
+  padding: 30px;
   flex: 50%;
   align-items: center;
 }
 
 #homepage .flex-item-right {
-  background-color: dodgerblue;
-  padding: 10px;
+  /*background-color: dodgerblue;*/
+  padding: 30px;
   flex: 50%;
   align-items: center;
 }
