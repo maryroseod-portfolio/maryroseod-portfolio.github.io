@@ -53,17 +53,21 @@ h2.header{
 }*/
 
 #homepage .flex-container {
+  margin: 20px;
   display: flex;
   flex-direction: row;
+  background-color: #f1f1f1;
 }
 
-#homepage .flex-container > div {
-  margin: 10px;
-  padding: 20px;
+#homepage p.flex-container > div {
+  margin: 20px;
+  /*padding: 20px;*/
   font-size: 30px;
+  width: 50%;
+  justify-content: space-around;
 }
 
-#homepage img{
+#homepage img.flex-container > div{
   /*column-width: auto;
   column-span: none;*/
   /*Center Image (lets see how this goes lol)*/
@@ -72,26 +76,26 @@ h2.header{
   margin-left: 200px;
   margin-right: auto;
   margin-bottom: 80px;
-  width: 40%;
-  border: 2px solid black;
+  width: 50%;
+  border: 5px solid black;
   border-radius: 5px;
 }
 
-#homepage p{
-  font-size: 18px;
+/*#homepage p{
+  font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 10px;
   margin-right: 10px;
-}
+}*/
 
-#homepage .homepage-bio{
+/*#homepage .homepage-bio{
   margin-top: 20px;
   margin-bottom: 25px;
   margin-right: 10px;
   margin-left: 10px;
   border: 2px solid black;
   border-radius: 5px;
-}
+}*/
 
 .sticky {
   position: fixed;
