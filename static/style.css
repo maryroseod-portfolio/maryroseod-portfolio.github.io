@@ -67,16 +67,16 @@ h2.header{
   justify-content: space-around;
 }
 
-#homepage img.flex-container {
+#homepage img{
   /*column-width: auto;
   column-span: none;*/
   /*Center Image (lets see how this goes lol)*/
   display: block;
-  margin-top: 50px;
+  /*margin-top: 50px;
   margin-left: 200px;
   margin-right: auto;
-  margin-bottom: 80px;
-  width: 50%;
+  margin-bottom: 80px;*/
+  max-width: 100%;
   border: 5px solid black;
   border-radius: 5px;
 }
