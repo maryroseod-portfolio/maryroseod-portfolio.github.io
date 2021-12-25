@@ -63,9 +63,9 @@ h2 {
 }
 
 #homepage .flex-item-left {
-  background-color: #f1f1f1;
+  /*background-color: #f1f1f1;*/
   padding: 30px;
-  flex: 50%;
+  flex: 10%;
   align-items: center;
 }
 
@@ -111,7 +111,7 @@ h2 {
   width: 100%;
 }
 
-.sticky + .flex-container {
+.sticky + #homepage .flex-container {
   padding-top: 60px;
 }
 
