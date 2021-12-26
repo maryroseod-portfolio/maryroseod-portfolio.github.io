@@ -84,8 +84,8 @@ h2 {
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
-#homepage @media (max-width: 800px) {
-  .flex-container {
+@media (max-width: 800px) {
+  #homepage .flex-container {
     flex-direction: column;
   }
 
@@ -105,6 +105,11 @@ h2 {
   padding: 0 4px;
 }
 
+#articles-page .row > div {
+  /*background-color: #f1f1f1;*/
+  margin: 15px;
+}
+
       /* Create four equal columns that sits next to each other */
 #articles-page .column {
   flex: 25%;
@@ -115,7 +120,7 @@ h2 {
 #articles-page .column img {
   margin-top: 8px;
   vertical-align: middle;
-  /*display: block;*/
+  display: block;
   max-width: 100%;
   border: 5px solid black;
   border-radius: 5px;
@@ -123,7 +128,7 @@ h2 {
 
       /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
-  .column {
+  #articles-page .column {
     flex: 50%;
     max-width: 50%;
   }
@@ -131,7 +136,7 @@ h2 {
 
       /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
-  .column {
+  #articles-page .column {
     flex: 100%;
     max-width: 100%;
   }
