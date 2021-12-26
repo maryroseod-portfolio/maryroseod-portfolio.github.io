@@ -115,6 +115,10 @@ h2 {
 #articles-page .column img {
   margin-top: 8px;
   vertical-align: middle;
+  /*display: block;*/
+  max-width: 100%;
+  border: 5px solid black;
+  border-radius: 5px;
 }
 
       /* Responsive layout - makes a two column-layout instead of four columns */
