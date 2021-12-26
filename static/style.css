@@ -89,6 +89,12 @@ h2 {
     flex-direction: column;
   }
 
+  /*-----------Articles Page Layout------------*/
+
+#articles-page{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 #articles-page .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -96,16 +102,21 @@ h2 {
   text-align: center;
 }
 
+#articles-page .flex-container > div {
+  /*background-color: #f1f1f1;*/
+  margin: 15px;
+}
+
 #articles-page .flex-item-left {
-  background-color: #f1f1f1;
+  background-color: green;
   padding: 10px;
-  flex: 50%;
+  flex: 33.33%;
 }
 
 #articles-page .flex-item-right {
   background-color: dodgerblue;
   padding: 10px;
-  flex: 50%;
+  flex: 33.33%;
 }
 
 #articles-page .flex-item-center {
