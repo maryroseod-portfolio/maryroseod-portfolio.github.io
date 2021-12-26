@@ -34,6 +34,17 @@ h2 {
   display: block;
 }
 
+#navbar button{
+  float: left;
+  padding: 15px 0px;
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  width: 20%;
+  text-align: center;
+  display: block;
+}
+
 #navbar a:hover, .dropdown:hover .dropbtn{
   background-color: #ddd;
   color: black;
