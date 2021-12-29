@@ -16,9 +16,16 @@
           <h2>MARY ROSE O'DONNELL</h2>
         </div>
 
-        <div id="navbar">
+        <div class="navbar" id="navbar">
           <a class="active" href="javascript:void(0)">Home</a>
-          <a href="/focus-1/articles.html">Articles</a>
+          <div class="dropdown">
+            <button class="dropbtn">Articles
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="/focus-1/articles.html">Journalism</a>
+              <a href="/focus-1/articles.html">Communications & Marketing</a>
+          <!--<a href="/focus-1/articles.html">Articles</a>-->
           <a href="javascript:void(0)">Desktop Publishing</a>
           <a href="javascript:void(0)">Audio</a>
           <a href="javascript:void(0)">Social Media</a>
@@ -50,6 +57,17 @@
               navbar.classList.add("sticky")
             } else {
               navbar.classList.remove("sticky");
+            }
+          }
+        </script>
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
             }
           }
         </script>
