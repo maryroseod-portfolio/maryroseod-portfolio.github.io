@@ -239,7 +239,22 @@ h2 {
   }
 }
 
+.content {
+  padding: 16px;
+}
 
+/*Sticky CSS*/
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
 
 
 /*---------HOMEPAGE STYLE-----------*/
@@ -340,23 +355,6 @@ h2 {
     max-width: 100%;
   }
 }
-
-/*-------End of Article Layout-----*/
-
-
-/*.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + #homepage .flex-container {
-  padding-top: 60px;
-}
-
-.sticky + #articles-page .flex-container {
-  padding-top: 60px;
-}*/
 
 footer
 {
