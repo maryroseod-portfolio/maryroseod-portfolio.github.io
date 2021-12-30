@@ -5,7 +5,16 @@ body {
   font-family: Arial;
 }
 
-/*---------HEADER STYLE---------*/
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.content {
+  font: inherit;
+}
+
+/*---------HEADER STYLE ---------*/
 
 .header {
   text-align: center;
@@ -13,11 +22,6 @@ body {
   font-family: 'Fanwood Text', serif;
   font-family: 'Staatliches', cursive;
   height: 150px;
-}
-
-h2 {
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 /*---------NAV BAR STYLE-----------*/
@@ -256,9 +260,7 @@ h2 {
   }
 }
 
-.content {
-  font: inherit;
-}
+
 
 /*---------HOMEPAGE STYLE-----------*/
 /*Two Columns for Content on the Homepage*/
