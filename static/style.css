@@ -214,16 +214,17 @@ h2 {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+  width: 100%;
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #ddd;
   color: black;
-  width: 100%;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
