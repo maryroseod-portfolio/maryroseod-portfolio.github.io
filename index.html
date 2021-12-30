@@ -18,7 +18,45 @@
           <h2>MARY ROSE O'DONNELL</h2>
         </div>
 
-        <div class="navbar" id="navbar">
+<!--W3 Schools Dropdown Nav Example-->
+
+        <div class="topnav" id="myTopnav">
+          <a href="#home" class="active">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Articles
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+          <a href="#desktop-pub">Desktop Publishing</a>
+          <a href="#audio">Audio</a>
+          <a href="#socialmedia">Social Media</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <div style="padding-left:16px">
+          <h2>Responsive Topnav with Dropdown</h2>
+          <p>Resize the browser window to see how it works.</p>
+          <p>Hover over the dropdown button to open the dropdown menu.</p>
+        </div>
+
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+<!--Old Nav HTML-->
+        <!--<div class="navbar" id="navbar">
           <a class="active" href="javascript:void(0)">Home</a>
           <div class="dropdown">
             <button class="dropbtn">Articles
@@ -28,14 +66,14 @@
               <a href="/focus-1/articles.html">Journalism</a>
               <a href="/focus-1/articles.html">Communications & Marketing</a>
             </div>
-          <!--<a href="/focus-1/articles.html">Articles</a>-->
+          <a href="/focus-1/articles.html">Articles</a>
           <a href="javascript:void(0)">Desktop Publishing</a>
           <a href="javascript:void(0)">Audio</a>
           <a href="javascript:void(0)">Social Media</a>
           <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-          </div>
+        </div>-->
 
-        <div id="homepage">
+        <!--<div id="homepage">
           <div class = "flex-container">
             <div class = "flex-item-left">
               <img src="/static/images/homepage-pic.JPG">
@@ -48,10 +86,10 @@
               </p>
             </div>
           </div>
-        </div>
+        </div>-->
 
 <!--Sticky Nav Bar Stuff -->
-        <script>
+        <!--<script>
           window.onscroll = function() {myFunction()};
 
           var navbar = document.getElementById("navbar");
@@ -64,19 +102,23 @@
               navbar.classList.remove("sticky");
             }
           }
-        </script>
+        </script>-->
 
 <!--Weird Top Nav Stuff-->
-        <script>
-          function myFunction() {
-            var x = document.getElementById("navbar");
-            if (x.className === "navbar") {
-              x.className += " responsive";
-            } else {
-              x.className = "navbar";
-            }
+      <!--<script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
           }
-        </script>
+        }
+      </script>-->
 
      <!--<footer>
        &emsp;Contact Email:&emsp;maryroseod@gmail.com
