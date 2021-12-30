@@ -192,7 +192,6 @@ h2 {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  width: inherit;
 }
 
 .dropdown-content a {
@@ -202,19 +201,18 @@ h2 {
   text-decoration: none;
   display: block;
   text-align: left;
-  width: 100%;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
-  width: 100%;
+  width: auto;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-  width: 100%;
+  width: 20%;
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
@@ -224,7 +222,7 @@ h2 {
 
 .dropdown:hover .dropdown-content {
   display: block;
-  width: 100%;
+  width: 20%;
 }
 
 @media screen and (max-width: 600px) {
