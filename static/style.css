@@ -198,9 +198,9 @@ h2 {
 /*-----------ARTICLES PAGE STYLE------------*/
 #articles .flex-container {
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
   /*background-color: DodgerBlue;*/
-  justify-content: center;
+  /*justify-content: center;*/
   flex-direction: row;
 }
 
