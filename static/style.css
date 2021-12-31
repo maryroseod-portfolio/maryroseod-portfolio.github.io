@@ -198,12 +198,11 @@ h2 {
 /*-----------ARTICLES PAGE STYLE------------*/
 #articles {
   font-family: Arial, Helvetica, sans-serif;
-  box-sizing: border-box;
 }
 
-/*#articles * {
+#articles * {
   box-sizing: border-box;
-}*/
+}
 
 #articles .row {
   display: flex;
