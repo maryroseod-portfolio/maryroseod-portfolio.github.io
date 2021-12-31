@@ -3,6 +3,8 @@
     <head>
       <title>Mary Rose O'Donnell's Portfolio</title>
       <link rel="stylesheet" type="text/css" href="../static/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -10,64 +12,68 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Staatliches&display=swap" rel="stylesheet">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
+    </head> <!-- Top Importy Stuff -->
     <body>
-      <!--Header-->
-      <div class="header">
-        <h2>MARY ROSE O'DONNELL</h2>
-      </div>
-      <!--Menu Bar-->
-      <div id="navbar">
-        <a href="../">Home</a>
-        <a class="active" href="javascript:void(0)">Articles</a>
-        <a href="javascript:void(0)">Desktop Publishing</a>
-        <a href="javascript:void(0)">Audio</a>
-        <a href="javascript:void(0)">Social Media</a>
-      </div>
-      <!--Article Content Page-->
-      <div id="articles-page">
-        <div class="row">
-          <div class="column">
-            <img src="../static/images/red-square.png" style="width:100%">
-            <img src="../static/images/yellow-square.jpg" style="width:100%">
-            <img src="../static/images/blue-square.png" style="width:100%">
-          </div>
-
-          <div class="column">
-            <img src="../static/images/blue-square.png" style="width:100%">
-            <img src="../static/images/red-square.png" style="width:100%">
-            <img src="../static/images/yellow-square.jpg" style="width:100%">
-          </div>
-
-          <div class="column">
-            <img src="../static/images/yellow-square.jpg" style="width:100%">
-            <img src="../static/images/red-square.png" style="width:100%">
-            <img src="../static/images/blue-square.png" style="width:100%">
-          </div>
-
-          <div class="column">
-            <img src="../static/images/red-square.png" style="width:100%">
-            <img src="../static/images/blue-square.png" style="width:100%">
-            <img src="../static/images/yellow-square.jpg" style="width:100%">
-          </div>
+        <div class="header">
+          <h2>MARY ROSE O'DONNELL</h2>
         </div>
-      </div>
+
+<!--W3 Schools Dropdown Nav Example-->
+
+        <div class="topnav" id="myTopnav">
+          <a href="../index.html">Home</a>
+          <div class="dropdown" class="active"> <!--Articles -->
+            <button class="dropbtn">Articles
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Journalism</a>
+              <a href="#">Marking & Communications</a>
+            </div>
+          </div>
+          <div class="dropdown"> <!--Desktop Publishing -->
+            <button class="dropbtn">Desktop Publishing
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">The Pitt News</a>
+              <a href="#">Intro to Writing & Design</a>
+            </div>
+          </div>
+          <a href="#audio">Audio</a>
+          <a href="#socialmedia">Social Media</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction1()">&#9776;</a>
+        </div>
+
+        <!--<div class="content" id="homepage">
+          <div class = "flex-container">
+            <div class = "flex-item-left">
+              <img src="/static/images/homepage-pic.JPG">
+            </div>
+
+            <div class = "flex-item-right">
+              <p>Hi there! My name is Mary Rose O’Donnell and I’m a student journalist from West Chester, PA.
+                I am a senior at the University of Pittsburgh majoring in Information Science and Digital Narrative & Interactive Design and will graduate in December 2021.
+                I’m currently the Managing Editor for The Pitt News and was previously a Newsroom Intern for 90.5 WESA.
+              </p>
+            </div>
+          </div>
+        </div>-->
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+        </script>
+
+
      <!--<footer>
        &emsp;Contact Email:&emsp;maryroseod@gmail.com
      </footer>-->
-     <script>
-       window.onscroll = function() {myFunction()};
-
-       var navbar = document.getElementById("navbar");
-       var sticky = navbar.offsetTop;
-
-       function myFunction() {
-         if (window.pageYOffset >= sticky) {
-           navbar.classList.add("sticky")
-         } else {
-           navbar.classList.remove("sticky");
-         }
-       }
-     </script>
     </body>
   </html>
