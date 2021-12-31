@@ -196,6 +196,9 @@ h2 {
   }
 
 /*-----------ARTICLES PAGE STYLE------------*/
+#articles {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 #articles .grid {
   max-width: 1000px;
