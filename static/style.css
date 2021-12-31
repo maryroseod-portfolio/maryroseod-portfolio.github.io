@@ -196,7 +196,49 @@ h2 {
   }
 
 /*-----------ARTICLES PAGE STYLE------------*/
-#articles {
+#articles .flex-container {
+  display: flex;
+  align-items: center;
+  /*background-color: DodgerBlue;*/
+  justify-content: center;
+  flex-direction: row;
+}
+
+#articles .flex-container > div {
+  /*background-color: #f1f1f1;*/
+  margin: 15px;
+}
+
+#articles .flex-item-left {
+  /*background-color: #f1f1f1;*/
+  padding: 30px;
+  flex: 30%%;
+  align-items: center;
+}
+
+#articles .flex-item-center {
+  /*background-color: #f1f1f1;*/
+  padding: 30px;
+  flex: 30%;
+  align-items: center;
+}
+
+#articles .flex-item-right {
+  /*background-color: dodgerblue;*/
+  padding: 30px;
+  flex: 30%;
+  align-items: center;
+}
+
+#articles img{
+  display: block;
+  max-width: 100%;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+
+/* #articles {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -210,7 +252,6 @@ h2 {
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 #articles .column {
   flex: 25%;
   max-width: 25%;
@@ -222,7 +263,6 @@ h2 {
   vertical-align: middle;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
   .column {
     flex: 50%;
@@ -230,14 +270,14 @@ h2 {
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .column {
     flex: 100%;
     max-width: 100%;
   }
 }
-/*--------FOOTER-------*/
+
+
 footer{
     position: fixed;
     width:100%;
@@ -246,4 +286,4 @@ footer{
     right: 0;
     height: 30px;
     background-color: gray;
-}
+}*/
