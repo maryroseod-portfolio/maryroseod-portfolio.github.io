@@ -198,62 +198,46 @@ h2 {
 /*-----------ARTICLES PAGE STYLE------------*/
 #articles {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-#articles *, *:before, *:after {
   box-sizing: border-box;
 }
 
-#articles .grid {
-  max-width: 1000px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
+/*#articles * {
+  box-sizing: border-box;
+}*/
+
+#articles .row {
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  padding: 0 4px;
 }
 
-#articles .grid-item {
-  min-width: 250px;
-  max-width: 250px;
-  -webkit-box-flex: 1;
-  -ms-flex: 11 250px;
-  flex: 11 250px;
-  padding-left: .5rem;
-  padding-right: .5rem;
-  margin-bottom: 1rem;
+/* Create four equal columns that sits next to each other */
+#articles .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
-#articles .wrapper {
-  min-height: 100vh;
-  padding: 2rem 0;
-  background: #40424a;
-  color: #e4e4e8;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
+#articles .column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
 
-#articles .grid-item figure {
-  padding: 0;
-  margin: 0;
-  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.05);
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
-#articles .grid-item figure img {
-  display: block;
-  max-width: 100%;
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
-
-#articles .grid-item figcaption {
-  display: block;
-  padding: .625rem .5rem;
-  background: #474952;
-}
-
 /*--------FOOTER-------*/
 footer{
     position: fixed;
