@@ -196,7 +196,7 @@ h2 {
   }
 
 /*-----------ARTICLES PAGE STYLE------------*/
-#articles .articles-flex-container {
+.articles-flex-container {
   display: flex;
   /*align-items: center;*/
   background-color: DodgerBlue;
@@ -204,33 +204,33 @@ h2 {
   flex-direction: row;
 }
 
-#articles .articles-flex-container > div {
+.articles-flex-container > div {
   /*background-color: #f1f1f1;*/
   margin: 15px;
 }
 
-#articles .articles-flex-item-left {
-  background-color: #f1f1f1;
+.articles-flex-item-left {
+  background-color: yellow;
   padding: 30px;
   flex: 30%%;
   align-items: center;
 }
 
-#articles .articles-flex-item-center {
-  background-color: #f1f1f1;
+.articles-flex-item-center {
+  background-color: red;
   padding: 30px;
   flex: 30%;
   align-items: center;
 }
 
-#articles .articles-flex-item-right {
+.articles-flex-item-right {
   background-color: green;
   padding: 30px;
   flex: 30%;
   align-items: center;
 }
 
-#articles .articles-flex-container img{
+.articles-flex-container img{
   display: block;
   max-width: 100%;
   border: 5px solid black;
