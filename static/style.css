@@ -219,7 +219,7 @@ h2 {
 #articles .column img {
   margin-top: 8px;
   vertical-align: middle;
-  max-width: 100%;
+  max-width: 33.33%;
   border: 5px solid black;
   border-radius: 5px;
 }
