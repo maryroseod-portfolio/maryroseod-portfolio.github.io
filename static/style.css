@@ -196,49 +196,7 @@ h2 {
   }
 
 /*-----------ARTICLES PAGE STYLE------------*/
-.articles-flex-container {
-  display: flex;
-  /*align-items: center;*/
-  background-color: DodgerBlue;
-  /*justify-content: center;*/
-  flex-direction: row;
-}
-
-.articles-flex-container > div {
-  /*background-color: #f1f1f1;*/
-  margin: 15px;
-}
-
-.articles-flex-item-left {
-  background-color: yellow;
-  padding: 30px;
-  flex: 30%%;
-  align-items: center;
-}
-
-.articles-flex-item-center {
-  background-color: red;
-  padding: 30px;
-  flex: 30%;
-  align-items: center;
-}
-
-.articles-flex-item-right {
-  background-color: green;
-  padding: 30px;
-  flex: 30%;
-  align-items: center;
-}
-
-.articles-flex-container img{
-  display: block;
-  max-width: 100%;
-  border: 5px solid black;
-  border-radius: 5px;
-}
-
-
-/* #articles {
+#articles {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -253,14 +211,17 @@ h2 {
 }
 
 #articles .column {
-  flex: 25%;
-  max-width: 25%;
+  flex: 33.33%;
+  max-width: 33.33%;
   padding: 0 4px;
 }
 
 #articles .column img {
   margin-top: 8px;
   vertical-align: middle;
+  max-width: 100%;
+  border: 5px solid black;
+  border-radius: 5px;
 }
 
 @media (max-width: 800px) {
@@ -276,6 +237,52 @@ h2 {
     max-width: 100%;
   }
 }
+
+/*#articles * {
+  box-sizing: border-box;
+}
+
+#articles .articles-flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+#articles .articles-flex-container > div {
+  background-color: #f1f1f1;
+  margin: 15px;
+}
+
+#articles .articles-flex-item-left {
+  background-color: yellow;
+  padding: 30px;
+  flex: 30%%;
+  align-items: center;
+}
+
+#articles .articles-flex-item-center {
+  background-color: red;
+  padding: 30px;
+  flex: 30%;
+  align-items: center;
+}
+
+#articles .articles-flex-item-right {
+  background-color: green;
+  padding: 30px;
+  flex: 30%;
+  align-items: center;
+}
+
+#articles .articles-flex-container img{
+  display: block;
+  max-width: 100%;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+*/
+
 
 
 footer{
