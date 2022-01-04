@@ -210,7 +210,9 @@ h2 {
   display: table;
 }
 
-
+.row {
+  display: flex;
+}
 
 /*#articles {
   font-family: Arial, Helvetica, sans-serif;
