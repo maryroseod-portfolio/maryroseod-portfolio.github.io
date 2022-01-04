@@ -196,9 +196,6 @@ h2 {
   }
 
 /*-----------ARTICLES PAGE STYLE------------*/
-#articles * {
-  box-sizing: border-box;
-}
 
 #articles .column {
   float: left;
