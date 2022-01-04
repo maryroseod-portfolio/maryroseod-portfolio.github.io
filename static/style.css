@@ -211,6 +211,8 @@ h2 {
 }
 
 #articles .column {
+  display: flex;
+  flex-wrap: wrap;
   flex: 33.33%;
   max-width: 33.33%;
   padding: 0 4px;
@@ -222,6 +224,7 @@ h2 {
   max-width: 33.33%;
   border: 5px solid black;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 800px) {
