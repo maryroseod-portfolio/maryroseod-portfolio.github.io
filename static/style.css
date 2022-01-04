@@ -197,14 +197,14 @@ h2 {
 
 /*-----------ARTICLES PAGE STYLE------------*/
 
-#articles .column {
+.column {
   float: left;
   width: 33.33%;
   padding: 5px;
 }
 
 /* Clearfix (clear floats) */
-#articles .row::after {
+.row::after {
   content: "";
   clear: both;
   display: table;
