@@ -208,20 +208,21 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  height: 33.33%;
 }
 
 #articles .column {
   display: flex;
   flex-wrap: wrap;
   flex: 33.33%;
-  max-width: 33.33%;
+  width: 33.33%;
   padding: 0 4px;
 }
 
 #articles .column img {
   margin-top: 8px;
   vertical-align: middle;
-  max-width: 33.33%;
+  max-width: 100%;
   border: 5px solid black;
   border-radius: 5px;
   box-sizing: border-box;
