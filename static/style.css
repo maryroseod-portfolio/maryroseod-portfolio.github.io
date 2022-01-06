@@ -197,115 +197,64 @@ h2 {
 
 /*-----------ARTICLES PAGE STYLE------------*/
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+.gallery {
+	display: flex;
+	padding: 2px;
+	transition: .3s;
+
+	&:hover &__image {
+		filter: grayscale(1);
+	}
+
+	&__column {
+		display: flex;
+		flex-direction: column;
+		width: 25%;
+	}
+
+	&__link {
+		margin: 2px;
+		overflow: hidden;
+
+		&:hover {
+			.gallery__image {
+				filter: grayscale(0);
+			}
+
+			.gallery__caption {
+				opacity: 1;
+			}
+		}
+	}
+
+	&__thumb {
+		position: relative;
+	}
+
+	&__image {
+		display: block;
+		width: 100%;
+		transition: .3s;
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+
+	&__caption {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 25px 15px 15px;
+		width: 100%;
+		font-family: 'Raleway', sans-serif;
+		font-size: 16px;
+		color: white;
+		opacity: 0;
+		background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255 ,255 , 0) 100%);
+		transition: .3s;
+	}
 }
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.row {
-  display: flex;
-}
-
-/*#articles {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-#articles * {
-  box-sizing: border-box;
-}
-
-#articles .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  height: 33.33%;
-}
-
-#articles .column {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 33.33%;
-  width: 33.33%;
-  padding: 0 4px;
-}
-
-#articles .column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  max-width: 100%;
-  border: 5px solid black;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-
-@media (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-@media (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-/*#articles * {
-  box-sizing: border-box;
-}
-
-#articles .articles-flex-container {
-  display: flex;
-  background-color: DodgerBlue;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-#articles .articles-flex-container > div {
-  background-color: #f1f1f1;
-  margin: 15px;
-}
-
-#articles .articles-flex-item-left {
-  background-color: yellow;
-  padding: 30px;
-  flex: 30%%;
-  align-items: center;
-}
-
-#articles .articles-flex-item-center {
-  background-color: red;
-  padding: 30px;
-  flex: 30%;
-  align-items: center;
-}
-
-#articles .articles-flex-item-right {
-  background-color: green;
-  padding: 30px;
-  flex: 30%;
-  align-items: center;
-}
-
-#articles .articles-flex-container img{
-  display: block;
-  max-width: 100%;
-  border: 5px solid black;
-  border-radius: 5px;
-}
-*/
-
-
 
 footer{
     position: fixed;
