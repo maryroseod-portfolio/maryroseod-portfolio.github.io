@@ -64,17 +64,16 @@ h2 {
 }
 
 body {
-  display: grid;
-  place-content: center;
-  justify-items: center;
-  min-height: 100vh;
-  margin: 0;
-  padding: 1rem;
-  line-height: 1.5;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
-    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-  color: #444;
-  background-color: #e1faf1;
+    /* display: grid; */
+    place-content: center;
+    justify-items: center;
+    min-height: 100vh;
+    margin: 0;
+    /* padding: 1rem; */
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    color: #444;
+    /* background-color: #e1faf1; */
 }
 
 .card h3 {
