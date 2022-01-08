@@ -34,21 +34,14 @@ h2 {
   height: max(10rem, 25vh);
   max-height: max(10rem, 30vh);
   aspect-ratio: 4/3;
+}
 
-    /*~ * {
-      margin-left: 1rem;
-      margin-right: 1rem;
-    }*/
-  }
+> :last-child {
+  margin-bottom: 0;
+}
 
-  > :last-child {
-    margin-bottom: 0;
-  }
-
-  &:hover,
-  &:focus-within {
-    --card-gradient: #24a9d5 max(8.5rem, 20vh);
-  }
+.card img:hover{
+  card-gradient: #24a9d5 max(8.5rem, 20vh);
 }
 
 /* Additional demo display styles */
