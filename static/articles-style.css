@@ -29,6 +29,7 @@ h2 {
 
 .card img {
   border-radius: 0.5rem 0.5rem 0 0;
+  border: 2px solid black;
   width: 100%;
   object-fit: cover;
   height: max(10rem, 25vh);
@@ -38,10 +39,6 @@ h2 {
 
 > :last-child {
   margin-bottom: 0;
-}
-
-.card img:hover{
-  card-gradient: #24a9d5 max(8.5rem, 20vh);
 }
 
 /* Additional demo display styles */
