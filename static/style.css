@@ -204,13 +204,3 @@ h2 {
   .homepage-flex-container {
     flex-direction: column;
   }
-
-footer{
-    position: fixed;
-    width:100%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 30px;
-    background-color: gray;
-}*/
