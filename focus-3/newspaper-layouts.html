@@ -2,55 +2,93 @@
   <html>
     <head>
       <title>Mary Rose O'Donnell's Portfolio</title>
-      <link rel="stylesheet" type="text/css" href="../static/style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Staatliches&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <link rel="stylesheet" type="text/css" href="../static/style.css">
+      <link rel="stylesheet" type="text/css" href="../static/articles-style.css">
+    </head> <!-- Top Importy Stuff -->
     <body>
-      <div class="toppage">
-        <h1>Mary Rose O'Donnell's Portfolio<h1>
-        <!--<img class="banner" height:10%; src="/static/images/img_placeholder.png">-->
-      </div>
-      <div class="bar">
-         <div class="dropdown">
-            <button class="dropbtn"><i class="fa fa-bars"></i></button>
+
+<!--HEADER-->
+        <div class="header">
+          <h2>MARY ROSE O'DONNELL</h2>
+        </div>
+
+<!--TOP NAV-->
+        <div class="topnav" id="myTopnav">
+          <a href="../index.html" class="active">Home</a>
+          <div class="dropdown"> <!--Articles -->
+            <button class="dropbtn">Articles
+              <i class="fa fa-caret-down"></i>
+            </button>
             <div class="dropdown-content">
-              <a href="../">Home</a>
-              <a href="../focus-1/">Articles</a>
-              <a href="../focus-2/">Audio</a>
-              <a href="../other-works/">Desktop Publishing</a>
-              <a href="../about-me/">About This Website</a>
+              <a href="../focus-1/journalism.html">Journalism</a>
+              <a href="../focus-1/marketing-comms.html" class="active">Marking & Communications</a>
             </div>
-          </div> 
-	      <h2>Desktop Publishing</h2>
-      </div>
-      <main>
-		  <!--<div class="content">-->
-					<div class="cat">
-						<h3>The Pitt News</h3>
-						<p> While working for The Pitt News, I worked as the layout editor during summer and early fall of 2020. I used Adobe InDesign to create three special print editions of the newspaper. Click on each of the images below to view the desktop publishing work sample.</p>
-					</div>
-		  			<br>
-		  			<div class="workcontainer">
-						<a href="../static/workSample/NewStudentGuide.pdf" target="_blank">
-							<div class="clickable2">
-								<img src="../static/images/NewStudentGuidePic.png">
-							</div>
-						</a>
-						
-						<a href="../static/workSample/WelcomeBackEdition.pdf" target="_blank">
-							<div class="clickable2">
-								<img src="../static/images/WelcomeBackPic.png">
-							</div>
-						</a>
-					
-					<!--<div class="cat">
-						<h3>Integrating Writing & Design</h3>
-						<p>I took Pitt’s Integrating Writing & Design class in Fall 2020. This course had students study the rhetorical implications of design and writing. I used InDesign and Photoshop to create various documents and graphics with a focus on utilizing design to enhance the content of a written work. Here are some pieces I created for the class: </p>
-					</div>-->
-			 <!--</div>-->
-     </main>
-     <footer>
-       &emsp;Contact Email:&emsp;maryroseod@gmail.com
-     </footer>
+          </div>
+          <div class="dropdown"> <!--Desktop Publishing -->
+            <button class="dropbtn">Desktop Publishing
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#" class="active">Newspaper Layouts</a>
+              <a href="writing-and-design.html">Intro to Writing & Design</a>
+              <a href="newsletters.html">Newsletters</a>
+            </div>
+          </div>
+          <a href="../focus-2/audio.html">Audio</a>
+          <a href="#socialmedia">Social Media</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction1()">&#9776;</a>
+        </div>
+
+<!--OPEN SOURCE IMAGE GALLERY GRID-->
+        <ul class="card-wrapper">
+          <a href="" target="_blank">
+            <li class="card">
+            <img src='' alt=''>
+            <h3></h3>
+            <p></p>
+          </li></a>
+          <a href="" target="_blank">
+            <li class="card">
+            <img src='' alt=''>
+            <h3></h3>
+            <p></p>
+          </li></a>
+        </ul>
+        <ul class="card-wrapper">
+          <a href="" target="_blank">
+            <li class="card">
+            <img src='' alt=''>
+            <h3></h3>
+            <p></p>
+          </li></a>
+          <a href="" target="_blank">
+            <li class="card">
+            <img src='' alt=''>
+            <h3></h3>
+            <p></p>
+          </li></a>
+        </ul>
+
+<!--JAVASCRIPT FOR RESPONSIVE TOP NAV-->
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+        </script>
+
     </body>
   </html>
