@@ -28,11 +28,11 @@ h2 {
   overflow: hidden;
 }
 
-a:visited{
+.card-wrapper a:visited{
   text-decoration: none;
   color: black;
 }
-a:active{
+.card-wrapper a:active{
   text-decoration: none;
   color: black;
 }
