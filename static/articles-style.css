@@ -32,6 +32,15 @@ h2 {
   background-color: #FFD166;
 }
 
+.card:visited{
+  text-decoration: none;
+}
+
+.card:active{
+  text-decoration: none;
+}
+
+
 .card img {
   border-radius: 0.5rem 0.5rem 0 0;
   border: 2px solid black;
