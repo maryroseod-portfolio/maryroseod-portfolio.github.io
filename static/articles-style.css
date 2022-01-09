@@ -28,18 +28,18 @@ h2 {
   overflow: hidden;
 }
 
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+a:active{
+  text-decoration: none;
+  color: black;
+}
+
 .card:hover{
   background-color: #FFD166;
 }
-
-.card:visited{
-  text-decoration: none;
-}
-
-.card:active{
-  text-decoration: none;
-}
-
 
 .card img {
   border-radius: 0.5rem 0.5rem 0 0;
@@ -58,6 +58,7 @@ h2 {
 /* Additional demo display styles */
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -78,12 +79,16 @@ body {
   font-size: 1.25rem;
   margin-left: 20px;
   margin-right: 20px;
+  color: black;
+  text-decoration: none;
 }
 
 .card p {
   margin-left: 20px;
   margin-right: 20px;
   font-size: 1rem;
+  color: black;
+  text-decoration: none;
 }
 
 .card a {
