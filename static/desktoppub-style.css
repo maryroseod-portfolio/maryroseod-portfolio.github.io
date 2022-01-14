@@ -49,7 +49,7 @@ a:hover{
 
 .card-content img {
   border-radius: 0.5rem 0.5rem 0 0;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   width: 100%;
   object-fit: cover;
   height: max(10rem, 25vh);
