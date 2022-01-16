@@ -53,8 +53,8 @@ h2 {
   color: black;
 }*/
 
-.card-content li:hover{
-  border: 4px solid #FFD166;
+.card-content img:hover{
+  border: 6px solid #FFD166;
 }
 
 .card-content img {
@@ -135,7 +135,7 @@ body {
 
 .card-description a {
   color: inherit;
-  /*text-decoration: none;*/
+  text-decoration: underline;
 }
 
 .card-description a:hover{
