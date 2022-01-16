@@ -15,14 +15,14 @@ h2 {
   font: inherit;
 }*/
 /*-----------ARTICLES PAGE STYLE------------*/
-.card {
+/*.card {
   background-color: #fff;
   border: 4px solid black;
   border-radius: 0.5rem;
   box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
   padding-bottom: 1rem;
   overflow: hidden;
-}
+}*/
 
 .card-content {
   background-color: #fff;
@@ -53,7 +53,7 @@ h2 {
   color: black;
 }*/
 
-.card-content img:hover{
+.card-content li:hover{
   border: 4px solid #FFD166;
 }
 
@@ -100,15 +100,6 @@ body {
     /* background-color: #e1faf1; */
 }
 
-.card h3 {
-  margin-top: 1rem;
-  font-size: 1.25rem;
-  margin-left: 20px;
-  margin-right: 20px;
-  color: black;
-  text-decoration: none;
-}
-
 .card-description h3 {
   margin-top: 1rem;
   font-size: 1.25rem;
@@ -118,13 +109,6 @@ body {
   text-decoration: none;
 }
 
-.card p {
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 1rem;
-  color: black;
-}
-
 .card-description p {
   margin-left: 20px;
   margin-right: 20px;
@@ -132,14 +116,17 @@ body {
   color: black;
 }
 
-.card a {
-  color: inherit;
-  text-decoration: none;
-}
-
 .card-description a {
   color: inherit;
   /*text-decoration: none;*/
+}
+
+.card-description a:hover{
+  color: blue;
+}
+
+.card-description a:active{
+  color: black;
 }
 
 .card-wrapper {
