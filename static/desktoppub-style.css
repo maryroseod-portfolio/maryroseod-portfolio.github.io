@@ -53,8 +53,8 @@ h2 {
   color: black;
 }
 
-a:hover{
-  background-color: #FFD166;
+.card-wrapper a:hover{
+  border: 4px solid #FFD166;
 }
 
 .card-content img {
