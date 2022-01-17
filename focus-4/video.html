@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Mary Rose O'Donnell's Portfolio</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Staatliches&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <link rel="stylesheet" type="text/css" href="../static/style.css">
+      <link rel="stylesheet" type="text/css" href="../static/desktoppub-style.css">
+    </head> <!-- Top Importy Stuff -->
+    <body>
+
+<!--HEADER-->
+        <div class="header">
+          <h2>MARY ROSE O'DONNELL</h2>
+        </div>
+
+<!--TOP NAV-->
+        <div class="topnav" id="myTopnav">
+          <a href="../index.html">Home</a>
+          <div class="dropdown"> <!--Articles -->
+            <button class="dropbtn">Articles
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="../focus-1/journalism.html">Journalism</a>
+              <a href="../focus-1/marketing-comms.html">Marketing & Communications</a>
+            </div>
+          </div>
+          <div class="dropdown"> <!--Desktop Publishing -->
+            <button class="dropbtn">Desktop Publishing
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="../focus-3/newspaper-layouts.html">Newspaper Layouts</a>
+              <a href="../focus-3/writing-and-design.html">Integrating Writing & Design</a>
+              <a href="../focus-3/newsletter.html">Newsletters</a>
+            </div>
+          </div>
+          <a href="../focus-2/audio.html">Audio</a>
+          <div class="dropdown"> <!--Social Media -->
+            <button class="dropbtn">Social Media
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="../focus-4/instagram.html">Instagram</a>
+              <a href="../focus-4/twitter-fb.html">Twitter & Facebook</a>
+              <a href="../focus-4/video.html">Video</a>
+            </div>
+          </div>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction1()">&#9776;</a>
+        </div>
+
+<!--OPEN SOURCE IMAGE GALLERY GRID-->
+        <ul class="card-wrapper">
+          <li class="card"> <!--Social Media Description - Top Panel-->
+            <h3>Social Media</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur gravida arcu ac tortor. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet consectetur. Ornare massa eget egestas purus viverra accumsan in nisl. Orci phasellus egestas tellus rutrum tellus. Volutpat sed cras ornare arcu dui. Risus nec feugiat in fermentum posuere urna nec tincidunt praesent. Viverra aliquet eget sit amet tellus cras adipiscing enim. Sed cras ornare arcu dui. Ut enim blandit volutpat maecenas. Volutpat sed cras ornare arcu.</p>
+          </li>
+        </ul>
+        <ul class="card-wrapper">
+          <li class="card">
+            <img src="../static/images/test-pics/img_placeholder.png">
+          </li>
+          <li class="card">
+            <!--<iframe src="" width="100%" height="750px"></iframe>-->
+            <img src="../static/images/test-pics/img_placeholder.png">
+          </li>
+          <li class="card">
+            <!--<iframe src="" width="100%" height="750px"></iframe>-->
+            <img src="../static/images/test-pics/img_placeholder.png">
+          </li>
+        </ul>
+
+<!--JAVASCRIPT FOR RESPONSIVE TOP NAV-->
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+        </script>
+
+    </body>
+  </html>
