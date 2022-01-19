@@ -195,6 +195,9 @@ h2 {
   padding: 30px;
   flex: 50%;
   align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 #homepage .homepage-flex-item-left img{
