@@ -11,8 +11,10 @@ body {
   margin: 0;
   /* padding: 1rem; */
   line-height: 1.5;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  /*font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;*/
   color: #444;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
   /* background-color: #e1faf1; */
 }
 
@@ -30,9 +32,10 @@ h2 {
 .header {
   text-align: center;
   font-size: 60px;
-  font-family: 'Fanwood Text', serif;
-  font-family: 'Staatliches', cursive;
+  font-family: 'DM Sans', sans-serif;
   height: 150px;
+  font-style: italic;
+  font-weight: 700;
 }
 
 /*------W3 Schools Dropdown Nav Example-------*/
@@ -50,6 +53,7 @@ h2 {
   padding: 15px 0px;
   text-decoration: none;
   font-size: 19px;
+  font-style: normal;
   width: 20%;
 }
 
@@ -82,6 +86,7 @@ h2 {
   padding: 15px;
   background-color: inherit;
   font-family: inherit;
+  font-style: normal;
   margin: 0;
   width: 100%;
 }
