@@ -188,11 +188,11 @@ h2 {
 }
 
 #homepage .homepage-flex-item-right {
-  /*background-color: dodgerblue;*/
+  background-color: white;
   padding: 30px;
   flex: 50%;
   align-items: center;
-  border: 6px solid black;
+  border: 6px solid #EF476F;
   border-radius: 6px;
 }
 
