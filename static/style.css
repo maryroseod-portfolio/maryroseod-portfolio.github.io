@@ -51,8 +51,11 @@ h2 {
 }
 
 .active {
-  background-color: #645DD7;
-  color: white;
+  /*background-color: #645DD7;*/
+  /*color: white;*/
+  border-style: left;
+  border-radius: 6px;
+  border-color: white;
 }
 
 .topnav .icon {
@@ -190,6 +193,8 @@ h2 {
   padding: 30px;
   flex: 50%;
   align-items: center;
+  border: 6px solid black;
+  border-radius: 6px;
 }
 
 #homepage .homepage-flex-item-left img{
