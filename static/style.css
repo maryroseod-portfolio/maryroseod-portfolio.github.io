@@ -41,7 +41,7 @@ h2 {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 15px 0px;
   text-decoration: none;
@@ -52,7 +52,7 @@ h2 {
 
 .active {
   background-color: #645DD7;
-  color: black;
+  color: white;
 }
 
 .topnav .icon {
@@ -75,8 +75,8 @@ h2 {
   font-size: 19px;
   border: none;
   outline: none;
-  color: white;
-  padding: 15px;
+  color: black;
+  padding: 16.75px;
   background-color: inherit;
   font-family: inherit;
   font-style: normal;
