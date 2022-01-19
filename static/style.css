@@ -53,9 +53,8 @@ h2 {
 .active {
   /*background-color: #645DD7;*/
   /*color: white;*/
-  border-style: left;
   border-radius: 6px;
-  border-color: white;
+  border-color: black;
 }
 
 .topnav .icon {
