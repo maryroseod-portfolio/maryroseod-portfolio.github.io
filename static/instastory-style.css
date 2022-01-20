@@ -1,0 +1,151 @@
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #fff;
+  border: 4px solid black;
+  border-radius: 0.5rem;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 1rem;
+  overflow: hidden;
+}
+
+.card-content {
+  background-color: #fff;
+  border: 4px solid black;
+  border-radius: 0.5rem;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 1rem;
+  overflow: hidden;
+  height: 400px;
+}
+
+.card-description {
+  background-color: #fff;
+  border: 4px solid black;
+  border-radius: 0.5rem;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 1rem;
+  overflow: hidden;
+  height: 400px;
+}
+
+/*.card-wrapper a:visited{
+  /*text-decoration: none;
+  color: black;
+}*/
+/*.card-wrapper a:active{
+  text-decoration: none;
+  color: black;
+}*/
+
+.card-content img:hover{
+  border: 6px solid #FFD166;
+}
+
+.card-content img {
+  /*border-radius: 0.5rem 0.5rem 0 0;*/
+  /*border: 2px solid black;*/
+  /*width: 100%;
+  object-fit:fill;
+  height: max(10rem, 25vh);
+  max-height: max(10rem, 30vh);*/
+  aspect-ratio: 4/3;
+}
+
+.card-description img {
+  border-radius: 0.5rem 0.5rem 0 0;
+  /*border: 2px solid black;*/
+  width: 100%;
+  object-fit:cover;
+  height: max(10rem, 25vh);
+  max-height: max(10rem, 30vh);*/
+  aspect-ratio: 4/3;
+}
+
+> :last-child {
+  margin-bottom: 0;
+}
+
+/* Additional demo display styles */
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+    /* display: grid; */
+    place-content: center;
+    justify-items: center;
+    min-height: 100vh;
+    margin: 0;
+    /* padding: 1rem; */
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    color: #444;
+    /* background-color: #e1faf1; */
+}
+
+.card h3 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.card p {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+.card-description h3 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.card-description p {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1rem;
+  color: black;
+}
+
+.card-description a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.card-description a:hover{
+  color: blue;
+}
+
+.card-description a:active{
+  color: black;
+}
+
+.card-wrapper {
+  list-style: none;
+  /*padding: 0;*/
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+  justify-content: center;
+  grid-gap: 2rem;
+  max-width: 100vw;
+  /*width: 120ch;*/
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
