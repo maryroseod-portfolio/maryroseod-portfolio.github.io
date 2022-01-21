@@ -107,7 +107,7 @@ h2 {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: white;
   width: auto;
 }
 
@@ -118,7 +118,7 @@ h2 {
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #ddd;
+  background-color: white;
   color: black;
 }
 
