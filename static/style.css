@@ -180,14 +180,14 @@ h2 {
   margin: 15px;
 }
 
-#homepage .homepage-flex-item-left {
+#homepage .homepage-flex-item-outsides {
   /*background-color: #f1f1f1;*/
   padding: 30px;
   flex: 10%;
   align-items: center;
 }
 
-#homepage .homepage-flex-item-right {
+#homepage .homepage-flex-item-center {
   background-color: white;
   padding: 30px;
   flex: 50%;
@@ -196,7 +196,7 @@ h2 {
   border-radius: 6px;
 }
 
-#homepage .homepage-flex-item-left img{
+#homepage .homepage-flex-item-outsides img{
   display: block;
   max-width: 100%;
   border: 6px solid black;
