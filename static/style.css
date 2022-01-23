@@ -34,20 +34,7 @@ h2 {
   background-color: #333;
 }
 
-#home .topnav a {
-  float: left;
-  display: block;
-  color: black;
-  background-color: #EF476F;
-  text-align: center;
-  padding: 15px 0px;
-  text-decoration: none;
-  font-size: 19px;
-  font-style: normal;
-  width: 20%;
-}
-
-#articles .topnav a {
+.topnav a {
   float: left;
   display: block;
   color: black;
@@ -57,12 +44,11 @@ h2 {
   font-size: 19px;
   font-style: normal;
   width: 20%;
-  background-color:#FF9256;
 }
 
 .active {
-  /*background-color: #645DD7;*/
-  /*color: white;*/
+  background-color: #645DD7;
+  color: white;
   border-radius: 6px;
   border-color: black;
 }
