@@ -43,7 +43,7 @@ h2 {
 
 .card img {
   border-radius: 0.5rem 0.5rem 0 0;
-  border: 2px solid #FF9256;
+  border: 3px solid #FF9256;
   width: 100%;
   object-fit: cover;
   height: max(10rem, 25vh);
