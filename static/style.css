@@ -103,7 +103,7 @@ h2 {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: white;
+  /*background-color: white;*/
   width: auto;
 }
 
@@ -176,27 +176,34 @@ h2 {
   margin: 15px;
 }
 
-#homepage .homepage-flex-item-outsides {
-  /*background-color: #f1f1f1;*/
-  padding: 30px;
-  flex: 10%;
-  align-items: center;
-}
-
 #homepage .homepage-flex-item-center {
   background-color: white;
   padding: 30px;
-  flex: 50%;
+  flex: 33%;
   align-items: center;
   border: 6px solid #EF476F;
   border-radius: 6px;
 }
 
-#homepage .homepage-flex-item-outsides img{
-  display: block;
-  max-width: 100%;
-  border: 6px solid black;
+#homepage .homepage-flex-item-outsides{
+  /*background-color: #fff;*/
+  border: 6px solid #EF476F;
   border-radius: 6px;
+  /*box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 1rem;
+  overflow: hidden;*/
+  /*height: 400px;*/
+}
+
+#homepage .homepage-flex-item-outsides img{
+  /*background-color: #fff;*/
+  border: 6px solid #EF476F;
+  border-radius: 6px;
+  /*object-fit: fill;*/
+  /*box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 1rem;
+  overflow: hidden;*/
+  /*height: 400px;*/
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
