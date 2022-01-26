@@ -110,7 +110,7 @@ body {
     margin: 0;
     /* padding: 1rem; */
     line-height: 1.5;
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    font-family: 'DM Sans', sans-serif;
     color: #444;
     /* background-color: #e1faf1; */
 }
@@ -122,6 +122,8 @@ body {
   margin-right: 20px;
   color: black;
   text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
 }
 
 .card p {
@@ -130,6 +132,8 @@ body {
   font-size: 1rem;
   color: black;
   text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
 }
 
 .card-description h3 {
@@ -139,6 +143,8 @@ body {
   margin-right: 20px;
   color: black;
   text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
 }
 
 .card-description p {
@@ -146,6 +152,8 @@ body {
   margin-right: 20px;
   font-size: 1rem;
   color: black;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
 }
 
 .card-description a {
