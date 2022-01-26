@@ -46,9 +46,15 @@ h2 {
   width: 20%;
 }
 
+<<<<<<< HEAD
 /*.active {
   /*background-color: #645DD7;*/
   /*color: white;
+=======
+.active {
+  background-color: #645DD7;
+  color: white;
+>>>>>>> e5db2744ea88a70e1b16a7e2831a5452788b8546
   border-radius: 6px;
   border-color: black;
 }*/
