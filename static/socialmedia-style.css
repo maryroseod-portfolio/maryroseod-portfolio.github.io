@@ -9,8 +9,8 @@ h2 {
 }
 
 .card {
-  background-color: #fff;
-  border: 4px solid black;
+  background-color: #CEF6FF;
+  border: 4px solid #82DDF0;
   border-radius: 0.5rem;
   box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
   padding-bottom: 1rem;
@@ -18,8 +18,8 @@ h2 {
 }
 
 .card-story-video {
-  background-color: #fff;
-  border: 4px solid black;
+  background-color: #CEF6FF;
+  border: 4px solid #82DDF0;
   border-radius: 0.5rem;
   box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
   padding-bottom: 1rem;
@@ -33,8 +33,8 @@ h2 {
 }
 
 .card-story-image {
-  background-color: #fff;
-  border: 4px solid black;
+  background-color: #CEF6FF;
+  border: 4px solid #82DDF0;
   border-radius: 0.5rem;
   box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
   padding-bottom: 1rem;
@@ -50,8 +50,8 @@ h2 {
 }
 
 .card-description {
-  background-color: #fff;
-  border: 4px solid black;
+  background-color: #CEF6FF;
+  border: 4px solid #82DDF0;
   border-radius: 0.5rem;
   box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
   padding-bottom: 1rem;
