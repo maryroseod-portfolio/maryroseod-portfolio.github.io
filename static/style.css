@@ -194,16 +194,16 @@ h2 {
   border: 6px solid #EF476F;
   border-radius: 6px;
   /*box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
-  padding-bottom: 1rem;
-  overflow: hidden;*/
+  padding-bottom: 1rem;*/
+  /*overflow: hidden;*/
   /*height: 400px;*/
 }
 
 #homepage .homepage-flex-item-outsides img{
   /*background-color: #fff;*/
-  border: 6px solid #EF476F;
-  border-radius: 6px;
-  /*object-fit: fill;*/
+  /*border: 6px solid #EF476F;
+  border-radius: 6px;*/
+  object-fit: fill;
   /*box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
   padding-bottom: 1rem;
   overflow: hidden;*/
