@@ -193,6 +193,8 @@ h2 {
   /*background-color: #fff;*/
   border: 6px solid #EF476F;
   border-radius: 6px;
+  height: 400px;
+  width: 390px;
   /*box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
   padding-bottom: 1rem;*/
   /*overflow: hidden;*/
@@ -208,6 +210,7 @@ h2 {
   padding-bottom: 1rem;
   overflow: hidden;*/
   height: 400px;
+  width: 390px;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
