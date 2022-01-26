@@ -189,6 +189,16 @@ h2 {
   border-radius: 6px;
 }
 
+#homepage .homepage-flex-item-center a:hover{
+  color: white;
+  background-color: #EF476F;
+}
+
+#homepage .homepage-flex-item-center a:visited{
+  color: #645DD7;
+  text-decoration: underline;
+}
+
 #homepage .homepage-flex-item-outsides{
   /*background-color: #fff;*/
   border: 6px solid #EF476F;
