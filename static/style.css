@@ -105,6 +105,7 @@ h2 {
 .dropdown-content a:hover {
   /*background-color: white;*/
   width: auto;
+  font-style: oblique;
 }
 
 /* Show the dropdown menu on hover */
@@ -116,6 +117,7 @@ h2 {
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: white;
   color: black;
+  font-style: oblique;
 }
 
 .dropdown:hover .dropdown-content {
