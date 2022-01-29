@@ -112,6 +112,7 @@ h2 {
 .dropdown:hover .dropdown-content {
   display: block;
   width: 20%;
+  font-style: oblique;
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
@@ -123,6 +124,7 @@ h2 {
 .dropdown:hover .dropdown-content {
   display: block;
   width: 20%;
+  font-style: oblique;
 }
 
 @media screen and (max-width: 600px) {
