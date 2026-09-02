@@ -23,6 +23,8 @@
   --tag-teal: #5C9C87;     /* newsletters */
   --tag-sky: #7CA0B4;      /* social posts */
   --tag-gold: #BFA968;     /* archive / design */
+  --tag-slate: #8A93A6;    /* Pittwire */
+  --tag-plum: #8B5A7A;     /* AMETEK */
 
   --radius: 3px;
   --content-max: 44rem;
@@ -272,6 +274,13 @@ p { margin: 0 0 1.1em 0; max-width: 62ch; }
 .tag-newsletter { background: var(--tag-teal); }
 .tag-social     { background: var(--tag-sky); }
 .tag-archive    { background: var(--tag-gold); color: #3a331c; }
+
+/* Organization tags (writing samples) */
+.tag-pittit    { background: var(--tag-amber); }
+.tag-pittnews  { background: var(--tag-rose); }
+.tag-wesa      { background: var(--tag-sky); }
+.tag-pittwire  { background: var(--tag-slate); }
+.tag-ametek    { background: var(--tag-plum); }
 
 .tag-row { margin-bottom: 1.5rem; }
 
